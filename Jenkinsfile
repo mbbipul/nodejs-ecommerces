@@ -1,4 +1,5 @@
 pipeline {
+    checkout scm
     agent { dockerfile true }
     stages {
         stage('Git checkout') {
