@@ -22,4 +22,5 @@ jobs:
         with:
           context: .
           push: true
+          tag: latest
           labels: nodejs-ecommerce
